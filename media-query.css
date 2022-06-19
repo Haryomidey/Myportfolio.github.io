@@ -1,0 +1,453 @@
+@media (max-width: 985px) {
+    header {
+        max-height: 80vh;
+    }
+
+    .newsletter {
+        width: 200px;
+    }
+
+    .newsletter p {
+        font-size: 13px;
+    }
+
+    .newsletter input {
+        width: 140px;
+    }
+
+    .thank-you {
+        width: 180px;
+    }
+
+    .thank-you h2 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 950px) {
+    header {
+        max-height: 70vh;
+    }
+
+    .footer-1 h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .my-image {
+        display: none;
+    }
+
+    .sub-div {
+        margin: 10px auto;
+        padding-top: 30px;
+    }
+
+    .section-para {
+        padding-top: 20px;
+    }
+
+    .section-para-2 {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width: 850px) {
+    .first-ul .first-li {
+
+        padding: 25px 15px;
+
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-left: 40px;
+        font-family: sans-serif;
+    }
+
+    .main-header {
+        margin: 120px 40px;
+    }
+
+    .main-header h1 {
+        font-size: 40px;
+
+    }
+
+    .sub-section {
+        padding-top: 30px 10px;
+    }
+
+    .sub-section .quote {
+        padding: 10px;
+    }
+
+    .message {
+        max-width: 90%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 8px;
+    }
+
+    .author {
+        font-size: 14px;
+    }
+
+    .form .input {
+        margin: 8px;
+    }
+
+    .form h3 {
+        line-height: 1.4;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .footer-1 h1 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .footer-1 h1 {
+        font-size: 25px;
+    }
+
+    .sub-section {
+        margin-top: 35px;
+    }
+
+    .let-talk {
+        margin-top: -5px;
+    }
+
+
+}
+
+@media (max-width: 750px) {
+
+    .sub-section {
+        margin-top: 80px;
+    }
+
+
+
+    .first-ul .first-li {
+
+        padding: 25px 10px;
+        font-size: 14px;
+
+    }
+
+    .logo {
+        font-size: 18px;
+
+    }
+
+    .footer-1 h1 {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 665px) {
+    .first-ul .first-li {
+        display: none;
+    }
+
+
+    .icons .fa-solid {
+        visibility: visible;
+    }
+    
+
+    .icons {
+        margin-right: -200px;
+        padding-bottom: 20px;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    .btn-1 {
+        display: none;
+    }
+
+    .sub-div h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+        font-family: sans-serif;
+    }
+
+    .sub-div h2 {
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .sub-div p {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .first-ul .first-li {
+        padding: 25px 8px;
+        font-size: 13px;
+    }
+
+    .logo {
+        margin-left: 30px;
+
+    }
+
+    .subscribe {
+        margin-right: 30px;
+    }
+
+
+
+    .input-field input[type="text"] {
+        width: 318px;
+        padding: 7px 5px;
+
+    }
+
+    .input-field button {
+        left: 231px;
+
+    }
+
+    .message {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .footer-1 {
+        display: none;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .form .input {
+        margin: 10px 30px;
+    }
+}
+
+@media (max-width: 646px) {
+    .input-field button {
+        left: 227px;
+        top: 3.9px;
+    }
+
+    .input-field input[type="text"] {
+        width: 318px;
+        padding: 9px 8px;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .icons {
+        margin-right: -170px;
+        padding-bottom: 20px;
+    }
+
+    section h1 {
+        font-size: 40px;
+    }
+
+    .footer-1 h1 {
+        font-size: 22px;
+    }
+
+}
+
+
+
+@media (max-width: 565px) {
+    .icons {
+        margin-right: -150px;
+    }
+
+    .form {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .form .input {
+        margin: 10px;
+        padding: 10px 10px;
+        width: 250px;
+
+    }
+
+    .input-field input[type="text"] {
+        width: 280px;
+
+    }
+
+    .input-field button {
+        left: 189px;
+    }
+
+}
+
+@media (max-width: 491px) {
+    .icons {
+        margin-right: -120px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 447px) {
+    .icons {
+        margin-right: -110px;
+        padding-bottom: 20px;
+    }
+
+    .main-header h1 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    nav {
+        margin-top: 30px;
+    }
+
+    .sub-div h1 {
+        font-size: 40px;
+    }
+
+    .sub-div h2 {
+        font-size: 20px;
+    }
+
+    .icons {
+        margin-right: -85px;
+        padding-bottom: 20px;
+    }
+
+    section h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 386px) {
+    .sub-div h1 {
+        font-size: 30px;
+    }
+
+    .sub-div h2 {
+        font-size: 17px;
+    }
+
+    .sub-div p {
+        font-size: 12px;
+    }
+
+    .input-field input[type="text"] {
+        width: 250px;
+    }
+
+    .input-field button {
+        left: 159px;
+    }
+
+    footer .fa-brands {
+        margin-left: 17x;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 357px) {
+    .main-header h1 {
+        font-size: 25px;
+    }
+
+    .main-header p {
+        font-size: 13px;
+    }
+
+    .main-header h3 {
+        font-size: 15px;
+    }
+
+    .input-field input[type="text"] {
+        font-size: 12px;
+    }
+
+    .form {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer-1 p {
+        font-size: 8px;
+    }
+
+    .form .input {
+        margin: 10px;
+        padding: 10px 10px;
+        width: 200px;
+
+    }
+
+    .icons {
+        margin-right: -65px;
+    }
+}
+
+@media (max-width: 330px) {
+    .input-field input[type="text"] {
+        width: 220px;
+        font-size: 10px;
+    }
+
+    .input-field button {
+        left: 147px;
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+
+    .main-header p {
+        font-size: 12px;
+    }
+
+    .main-header h3 {
+        font-size: 13px;
+    }
+
+    .main-header h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 290px) {
+    .input-field input[type="text"] {
+        width: 200px;
+    }
+
+    .input-field button {
+        left: 127px;
+    }
+
+}

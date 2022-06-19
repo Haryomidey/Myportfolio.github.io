@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --span-color: rgb(7, 7, 219);
+    --hover-color: rgb(63, 63, 245);
+    --button-color: rgba(39, 39, 228, 0.781);
+    --para-color: rgb(115, 116, 124);
+    --h1-color: #fff;
+    --bg-color: rgb(29, 28, 28);
+    --font-color: #fff;
+}
+
+body {
+    background: black;
+    color: var(--font-color);
+}
+
+section {
+    height: 100vh;
+    padding: auto;
+}
+
+.service-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section h1 {
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.service-section .service {
+    transform: translateY(20%);
+    background: var(--bg-color);
+    margin: 20px;
+    height: 300px;
+    min-width: 30%;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+.service:hover {
+    transform: translateY(15%);
+}
+
+.service p {
+    line-height: 1.5;
+    text-align: center;
+    color: var(--para-color);
+}
+
+.label {
+    min-width: 20px;
+    padding-right: 20px;
+}
+
+.btn {
+    background: var(--button-color);
+    padding: 7px 14px;
+    border-radius: 20px;
+    color: var(--font-color);
+    transition: 0.4s;
+    cursor: pointer;
+    border: 0;
+
+}
+
+.btn:hover {
+    background: var(--hover-color);
+}

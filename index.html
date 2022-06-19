@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b5e96276c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <title>My portfolio</title>
+</head>
+
+<body onscroll="active()" onresize="active_2()">
+
+    <!---HEADER SECTION---->
+    <!---HEADER SECTION---->
+    <!---HEADER SECTION---->
+
+    <header>
+
+        <nav>
+            <div class="logo">
+                <h1 class="header-logo">
+                    Haryomi<span>dey</span>
+                </h1>
+            </div>
+            <div class="options">
+                <ul class="first-ul">
+                    <li class="first-li"><a href="#">Home</a></li>
+                    <li class="first-li"><a href="project-lists/index.html">Projects</a></li>
+                    <li class="first-li"><a href="#">About Me</a></li>
+                    <li class="first-li"><a href="#">Skills</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-bars" id="fa-bars"></i>
+            </div>
+            <div class="nav-header">
+                <ul class="second-ul">
+                    <li class="second-li"><a href="#">Home</a></li>
+                    <hr>
+                    <li class="second-li"><a href="project-lists/index.html">Projects</a></li>
+                    <hr>
+                    <li class="second-li"><a href="#">About Me</a></li>
+                    <hr>
+                    <li class="second-li"><a href="#">Skills</a></li>
+                    <hr>
+                    <li class="second-li"><a href="#">Subscribe</a></li>
+                    <hr>
+                </ul>
+            </div>
+
+            <div class="subscribe">
+                <form onsubmit="return validate()" action="form/form.html">
+                    <button type="btn" class="btn btn-1">Subscribe</button>
+                </form>
+            </div>
+
+        </nav>
+        <div class="main-header">
+            <p class="para-1">
+                Hello, my name is
+            </p>
+            <h1>Oladiipo <span>Ayomide</span></h1>
+            <h3>I'm a Web Developer</h3>
+            <div class="input-field">
+                <input type="text" id="email-1" placeholder="Enter your email" maxlength="25">
+                <button type="btn" id="btn-1" class="btn btn-2">Let's Chat</button>
+            </div>
+        </div>
+
+        <!----NEWSLETTER----->
+        <!----NEWSLETTER----->
+        <!----NEWSLETTER----->
+        <!----NEWSLETTER----->
+
+
+        <div class="thank-you">
+            <h2>Thank You</h2>
+            <p>Your details has been submitted</p>
+            <button type="submit" id="thank-you-btn" onclick="activate_2()">Ok</button>
+        </div>
+        <div class="newsletter">
+            <div class="cancel">
+                <p>Fill the form below to subscribe for our newsletter</p>
+                <i class="fa-solid fa-xmark" id="fa-xmark" onclick="activate_3()"></i>
+            </div>
+            <form onsubmit="return validate()">
+                <input type="email" id="newsletter-email" name="email" placeholder="Enter your E-mail" required>
+                <input type="password" id="newsletter-password" name="password" placeholder="Enter your password"
+                    required>
+                <button type="submit" id="newsletter-btn" onclick="activate()">Submit</button>
+            </form>
+        </div>
+    </header>
+
+    <!---MAIN SECTION---->
+    <!---MAIN SECTION---->
+    <!---MAIN SECTION---->
+
+    <main>
+
+        <div class="about-me">
+            <div class="my-image">
+                <div class=img></div>
+
+            </div>
+            <div class="my-info">
+                <div class="sub-div">
+                    <h1>About Me</h1>
+                    <h2>Developer <span>& Designer</span></h2>
+                    <p>Hi, I'm Oladiipo Ayanlekan Ayomide, I'm an Engineering undergraduate from the Federal University
+                        of Technology Akure <b>FUTA</b> I'm also web developer who has built a lot of
+                        web pages and I can also build or beautify your web page for you with <b>HTML</b>, <b>CSS</b>,
+                        and <b>JAVASCRIPT</b>. I have been doing this for over a year now and I can assure you I won't
+                        disappoint you if you give me that your project and i'll do so at a very cheap rate which would
+                        not stop me from giving you the wonderful result you expected try me and you will not regret
+                        working with me.<br> Thanks.</p>
+                    <button type="button" class="btn btn-3 let-talk">Let's Talk</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!---SERVICE SECTION---->
+    <!---SERVICE SECTION---->
+    <!---SERVICE SECTION---->
+
+    <section>
+        <h1>My Services</h1>
+        <div class="service-section">
+            <div class="service-1 service">
+
+                <h2>My projects</h2>
+                <p class="section-para">Click on the button below to see more of my projects</p>
+                <form action="project-lists/index.html">
+                    <button type="submit" class="btn btn-4" id="btn-4">Click Me</button>
+                </form>
+
+            </div>
+            <div class="service-2 service">
+
+                <h2>Experience</h2>
+                <p class="section-para-2">I'm a web competent and diligent web developer who has over the years built a
+                    range of quality and dynamic websites...</p>
+                <button type="button" class="btn" id="btn-4-2">Read More</button>
+            </div>
+            <div class="service-3 service">
+                <h2>Ability</h2>
+                <p>
+                <div class="label"><label for="html">HTML</label></div>
+                <progress id="html" value="90" max="100">
+                    90%
+                </progress>
+                <br>
+                <div class="label"><label for="css">CSS</label></div>
+                <progress id="css" value="80" max="100">
+                    80%
+                </progress>
+                <br>
+                <div class="label"><label for="javascript">JAVASCRIPT</label></div>
+                <progress id="javascript" value="40" max="100">
+                    40%
+                </progress>
+                </p>
+                <button type="button" class="btn">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!----SUB SECTION---->
+    <!----SUB SECTION---->
+    <!----SUB SECTION---->
+
+
+    <div class="sub-section">
+        <div class="quote">Food for thought</div>
+        <div class="message"></div>
+        <div class="author"><span>__</span></div>
+    </div>
+    </div>
+    <!----FOOTER SECTION---->
+    <!----FOOTER SECTION---->
+    <!----FOOTER SECTION---->
+
+    <footer>
+
+        <div class="footer">
+            <div class="footer-1">
+                <h1>
+                    Oladiipo Ayanlekan Ayomide
+                </h1>
+
+            </div>
+            <div class="form">
+                <h3>Fill in the boxes below to subscribe to my website and get updated about my subsequent Info</h3>
+                <input class="input" type="email" id="email-2" placeholder="Email">
+                <input class="input" type="text" placeholder="Username">
+                <input class="input last" type="password" placeholder="Password">
+                <button type="submit" id="btn-2" class="btn btn-6">Submit</button>
+            </div>
+        </div>
+        <p>&copy; Oladiipo Ayanlekan Ayomide - 2022.</p>
+        <div class="footer-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>

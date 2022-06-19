@@ -1,0 +1,31 @@
+main h1, h3, p, button{
+    animation-name: opacity;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+        margin-left: 0%;
+    }
+    50%(
+        opacity: 1;
+    )
+}
+img{
+    animation-name: opacity-1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes opacity-1{
+    0%{
+        opacity: 0;
+        margin-right: 10%;
+    }
+    50%(
+        opacity: 1;
+    )
+}

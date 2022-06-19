@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --span-color: rgb(7, 7, 219);
+    --hover-color: rgb(63, 63, 245);
+    --button-color: rgba(39, 39, 228, 0.781);
+    --para-color: rgb(115, 116, 124);
+    --h1-color: #fff;
+    --bg-color: rgb(29, 28, 28);
+    --font-color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: rgb(32, 32, 32);
+    color: var(--h1-color);
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding-top: 60px;
+}
+
+.my-image {
+    flex-basis: 42%;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.my-image .img {
+    width: 80%;
+    height: 400px;
+    background: var(--bg-color);
+    border-radius: 20px;
+}
+
+.my-info {
+    flex-basis: 56%;
+}
+
+.sub-div {
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 30px;
+    height: 400px;
+}
+
+.sub-div h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.sub-div h2 {
+    padding-bottom: 18px;
+    font-family: sans-serif;
+}
+
+.sub-div h2 span {
+    color: var(--span-color);
+}
+
+.sub-div p {
+    color: var(--para-color);
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.btn {
+    background: var(--button-color);
+    padding: 7px 14px;
+    border-radius: 20px;
+    color: var(--font-color);
+    transition: 0.4s;
+    cursor: pointer;
+    border: 0;
+
+}
+
+.btn:hover {
+    background: var(--hover-color);
+}
